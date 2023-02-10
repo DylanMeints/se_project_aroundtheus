@@ -12,6 +12,7 @@
   border-radius: 50%;
   max-width: 168.75px;
   max-height: 127.5px;
+  margin: 0;
 }
 
 .profile__description {
