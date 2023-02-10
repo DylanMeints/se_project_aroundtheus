@@ -1,0 +1,52 @@
+.card {
+  max-width: 282px;
+  max-height: 361px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0;
+  display: block;
+}
+
+.card__description {
+  background-color: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 20px 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__like-button {
+  border-style: none;
+  background-color: #fff;
+  border-radius: 0 0 10px;
+}
+
+.card__like-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.card__button-image {
+  width: 21px;
+  height: 18px;
+}

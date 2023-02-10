@@ -1,0 +1,17 @@
+.footer {
+  max-width: 880px;
+  margin: auto;
+  margin-top: 45px;
+  padding-bottom: 60px;
+}
+
+.footer__copyright {
+  color: #545454;
+}
+
+@media (min-width: 680px) and (max-width: 990px) {
+  .footer {
+    justify-content: center;
+    max-width: 582px;
+  }
+}
