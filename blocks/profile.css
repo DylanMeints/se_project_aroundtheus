@@ -89,6 +89,7 @@
   .profile__description {
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
   .profile__header {
@@ -97,6 +98,10 @@
 
   .profile__occupation {
     font-size: 14px;
+  }
+
+  .profile__button {
+    width: 282px;
   }
 }
 
