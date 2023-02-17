@@ -20,4 +20,4 @@ This is the third project of the Web Development program at Practicum. It was cr
 - Map of locations visited
 
 Guthub Pages Link:
-https://github.com/DylanMeints/se_project_aroundtheus
+https://dylanmeints.github.io/se_project_aroundtheus/
