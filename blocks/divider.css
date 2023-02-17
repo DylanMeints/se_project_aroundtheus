@@ -5,9 +5,10 @@
   opacity: 0.7;
   border: 1px solid #545454;
   margin: 40px auto;
+}
 
-  @media screen and (max-width: 680px) {
-    .divider {
-      margin-top: 32px;
-    }
+@media screen and (max-width: 680px) {
+  .divider {
+    margin-top: 32px;
   }
+}
