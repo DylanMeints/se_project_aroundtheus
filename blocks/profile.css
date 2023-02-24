@@ -20,7 +20,7 @@
 }
 
 .profile__header {
-  max-width: 400px;
+  width: 373px;
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
@@ -108,6 +108,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
+    max-width: 282px;
   }
 
   .profile__header {
@@ -116,11 +117,15 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    max-width: 196px;
+    margin: 0;
+    padding: 0;
   }
 
   .profile__header-group {
     gap: 10px;
-    max-width: 260px;
+    max-width: 280px;
+    justify-content: center;
   }
 
   .profile__occupation {
@@ -130,6 +135,7 @@
     white-space: nowrap;
     overflow: hidden;
     margin: 14px auto 36px;
+    max-width: 280px;
   }
 
   .profile__button {
@@ -142,6 +148,8 @@
   .profile__edit {
     height: 18px;
     width: 18px;
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -155,6 +163,7 @@
   .profile__header {
     font-size: 32px;
     margin-right: 0px;
+    max-width: 220px;
   }
 
   .profile__description {
